@@ -1,0 +1,3 @@
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/bin/Release/CS_Tower_Game.exe
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Release/CS_Tower_Game.csproj.CoreCompileInputs.cache
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Release/CS_Tower_Game.exe

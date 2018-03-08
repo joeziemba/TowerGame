@@ -1,0 +1,5 @@
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Debug/CS_Tower_Game.csproj.CoreCompileInputs.cache
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/bin/Debug/CS_Tower_Game.exe
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/bin/Debug/CS_Tower_Game.pdb
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Debug/CS_Tower_Game.exe
+/Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Debug/CS_Tower_Game.pdb
