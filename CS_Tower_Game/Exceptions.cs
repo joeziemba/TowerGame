@@ -15,7 +15,7 @@ namespace TreehouseDefense
 
     public class OutOfBoundsException : TreehouseDefenseException
     {
-        public OutOfBoundsException() // Default constructors don't need to explicitly call their base constructor, it happens automatically
+        public OutOfBoundsException() // Default constructors don't need to explicitly call their base constructor as seen below, it happens automatically
         {
             
         }

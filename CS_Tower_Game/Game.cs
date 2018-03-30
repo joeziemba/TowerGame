@@ -9,16 +9,26 @@ namespace TreehouseDefense
 
             try
             {
-                MapLocation[] path = {
-                    new MapLocation(0, 2, map),
-                    new MapLocation(1, 2, map),
-                    new MapLocation(2, 2, map),
-                    new MapLocation(3, 2, map),
-                    new MapLocation(4, 2, map),
-                    new MapLocation(5, 2, map),
-                    new MapLocation(6, 2, map),
-                    new MapLocation(7, 2, map)
-                };
+                Path path = new Path(
+                    new [] {
+                        new MapLocation(0, 2, map),
+                        new MapLocation(1, 2, map),
+                        new MapLocation(2, 2, map),
+                        new MapLocation(3, 2, map),
+                        new MapLocation(4, 2, map),
+                        new MapLocation(5, 2, map),
+                        new MapLocation(6, 2, map),
+                        new MapLocation(7, 2, map)
+                    });
+                Console.WriteLine(value: "Welcome!");
+
+                Invader invader = new Invader();
+                MapLocation location = new MapLocation(0, 0, map);
+            // Setting using a setter method:
+                // invader.SetLocation(location);
+
+            // Setting using a Property setter:
+                invader.Location = location; 
             }
             catch(OutOfBoundsException ex)
             {
@@ -28,9 +38,9 @@ namespace TreehouseDefense
             {
                 Console.WriteLine("Unhandled TreehouseDefenseException");
             }
-            catch(Exception)
+            catch(Exception ex)
             {
-                Console.WriteLine("Unhandled Exception");
+                Console.WriteLine("Unhandled Exception: " + ex);
             }
         }
     }
