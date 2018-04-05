@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ziembaj\\playground\\TowerGame\\CS_Tower_Game\\TowerGame.csproj",
+      "projectUniqueName": "C:\\Users\\ziembaj\\playground\\TowerGame\\TowerGame.csproj",
       "projectName": "TowerGame",
-      "projectPath": "C:\\Users\\ziembaj\\playground\\TowerGame\\CS_Tower_Game\\TowerGame.csproj",
+      "projectPath": "C:\\Users\\ziembaj\\playground\\TowerGame\\TowerGame.csproj",
       "packagesPath": "C:\\Users\\ziembaj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ziembaj\\playground\\TowerGame\\CS_Tower_Game\\obj\\",
+      "outputPath": "C:\\Users\\ziembaj\\playground\\TowerGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
