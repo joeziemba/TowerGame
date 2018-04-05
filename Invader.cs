@@ -49,7 +49,6 @@ namespace TreehouseDefense
         // FIELDS
         private readonly Path _path;
         private int _pathStep = 0;
-        private const Names = {'Blork', 'Cork', 'Tork', }
 
         // PROPS
         public MapLocation Location => _path.GetLocationAt(_pathStep);

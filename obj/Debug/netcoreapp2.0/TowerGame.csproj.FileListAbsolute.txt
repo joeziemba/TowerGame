@@ -1,0 +1,10 @@
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\Debug\netcoreapp2.0\TowerGame.csproj.CoreCompileInputs.cache
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\Debug\netcoreapp2.0\TowerGame.AssemblyInfoInputs.cache
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\Debug\netcoreapp2.0\TowerGame.AssemblyInfo.cs
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\netcoreapp2.0\TowerGame.deps.json
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\netcoreapp2.0\TowerGame.runtimeconfig.json
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\netcoreapp2.0\TowerGame.runtimeconfig.dev.json
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\netcoreapp2.0\TowerGame.dll
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\netcoreapp2.0\TowerGame.pdb
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\Debug\netcoreapp2.0\TowerGame.dll
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\Debug\netcoreapp2.0\TowerGame.pdb
