@@ -3,3 +3,9 @@
 /Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/bin/Debug/CS_Tower_Game.pdb
 /Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Debug/CS_Tower_Game.exe
 /Users/josephziemba/Projects/CS_Tower_Game/CS_Tower_Game/obj/x86/Debug/CS_Tower_Game.pdb
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\CS_Tower_Game.exe
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\bin\Debug\CS_Tower_Game.pdb
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\x86\Debug\CS_Tower_Game.csprojResolveAssemblyReference.cache
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\x86\Debug\CS_Tower_Game.csproj.CoreCompileInputs.cache
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\x86\Debug\CS_Tower_Game.exe
+C:\Users\ziembaj\playground\TowerGame\CS_Tower_Game\obj\x86\Debug\CS_Tower_Game.pdb
