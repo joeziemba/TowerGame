@@ -29,5 +29,27 @@ namespace TreehouseDefense
         {
             return DistanceTo(point.X_Co, point.Y_Co);
         }
+
+        public override string ToString()
+        {
+            return X_Co.ToString() + ',' + Y_Co;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if(!(obj is Point))
+            {
+                return false;
+            }
+
+            Point that = obj as Point;
+
+            return this.X_Co == that.X_Co && this.Y_Co == that.Y_Co;
+        }
+
+        public override int GetHashCode()
+        {
+            return X_Co.GetHashCode() * 31 + Y_Co.GetHashCode();
+        }
     }
 }

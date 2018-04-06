@@ -1,7 +1,7 @@
 ﻿using System;
 namespace TreehouseDefense
 {
-    public class Invader
+    public abstract class Invader : IInvader
     {
         
 
@@ -52,22 +52,23 @@ namespace TreehouseDefense
 
         // PROPS
         public MapLocation Location => _path.GetLocationAt(_pathStep);
-        public int Health { get; private set; } = 2;
-
+        public abstract int Health { get; protected set; }
+        protected virtual int Speed { get; } = 1;
         public bool HasScored => _pathStep >= _path.Length;
-
         public bool IsNeutralized => Health <= 0;
-
         public bool IsActive => !(IsNeutralized || HasScored);
 
-        public Invader(Path path)
-        {
+        // METHODS
+        public Invader(Path path) {
             _path = path;
-            Health = 10;
         }
 
-        public void Move() => _pathStep += 1;
+        public void Move() => _pathStep += Speed;
 
-        public void Hit(int damage) => Health -= damage;
+        public virtual void Hit(int damage)
+        {
+            Health -= damage;
+            Console.WriteLine("Shot and hit an invader!");
+        }
     }
 }
