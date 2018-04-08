@@ -30,10 +30,10 @@ namespace TreehouseDefense
                 //     return;
                 // }
 
-                Invader[] invaders = {
+                IInvader[] invaders = {
                     new SpeedBot(path),
                     new ShieldBot(path),
-                    new PlainBot(path),
+                    new ZomBot(path),
                     new PlainBot(path)
                 };
 

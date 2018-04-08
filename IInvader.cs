@@ -1,13 +1,21 @@
 namespace TreehouseDefense
 {
-    interface IInvader
+    public interface IMappable
     {
         MapLocation Location { get; }
+    }
+
+    public interface IMoveable
+    {
+        void Move();
+    }
+    public interface IInvader : IMappable, IMoveable
+    {
+        
         int Health { get; }
         bool HasScored { get; }
         bool IsNeutralized { get; }
         bool IsActive { get; }
-        void Move();
         void Hit(int damage);
     }
 }
